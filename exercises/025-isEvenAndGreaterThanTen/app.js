@@ -1,1 +1,5 @@
-// Write your function here
+isEvenAndGreaterThanTen= num=>
+{
+    if (num%2===0 && num>10) return true;
+    return false;
+}

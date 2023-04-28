@@ -1,2 +1,3 @@
-// Write your function here
-
+computeAreaOfATriangle=(base,altura)=>{
+    return (base*altura)/2;
+}

@@ -1,1 +1,1 @@
-// Write your function here
+square=num=>num*num;

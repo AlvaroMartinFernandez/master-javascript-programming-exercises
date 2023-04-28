@@ -1,1 +1,1 @@
-// Write your function here
+cube=num=> num*num*num;

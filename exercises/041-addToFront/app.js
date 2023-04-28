@@ -1,5 +1,9 @@
 function addToFront(arr, element) {
-  // your code here
+  for(let i=arr.length -1;i>-1;i--)
+  {
+arr[i+1]==arr[i];
+  }
+  return arr;
 }
 
 let output = addToFront([1, 2], 3);

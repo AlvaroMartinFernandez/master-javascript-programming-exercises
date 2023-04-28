@@ -1,4 +1,4 @@
 function getAllWords(str) {
-    // your code here
-    
+    let charArray = str.split(' ');
+    return charArray;
 }

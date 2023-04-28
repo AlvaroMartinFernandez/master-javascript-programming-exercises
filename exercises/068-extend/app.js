@@ -8,6 +8,13 @@ let obj2 = {
 };
 
 function extend(obj1, obj2) {
-    // your code here
-
-}
+    // Recorremos todas las propiedades del segundo objeto
+    for (let key in obj2) {
+      // Verificamos si la propiedad existe en el primer objeto y si no la agregamos
+      if (!obj1.hasOwnProperty(key)) {
+        obj1[key] = obj2[key];
+      }
+    }
+    // Devolvemos el primer objeto actualizado
+    return obj1;
+  }

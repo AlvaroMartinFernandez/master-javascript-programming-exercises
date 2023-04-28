@@ -1,4 +1,5 @@
 function getAllElementsButFirst(array) {
-  // your code here
+  let newArray=array.slice(1);
+  return newArray;
   
 }
